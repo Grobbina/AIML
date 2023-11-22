@@ -1,0 +1,25 @@
+,Best Parameters,RMSE,R2,class
+0,"{'n_neighbors': 13, 'weights': 'uniform', 'algorithm': 'auto', 'leaf_size': 32, 'p': 2}",155750.73440007135,0.454382857695257,kneighborsregression
+1,"{'n_neighbors': 13, 'weights': 'uniform', 'algorithm': 'auto', 'leaf_size': 31, 'p': 2}",155750.73440007135,0.454382857695257,kneighborsregression
+2,"{'n_neighbors': 13, 'weights': 'uniform', 'algorithm': 'auto', 'leaf_size': 30, 'p': 2}",155750.73440007135,0.454382857695257,kneighborsregression
+3,"{'fit_intercept': True, 'copy_X': True}",147150.0825903235,0.5129777298510783,linear
+4,"{'fit_intercept': True, 'copy_X': True}",147150.0825903235,0.5129777298510783,linear
+5,"{'fit_intercept': True, 'copy_X': True}",147150.0825903235,0.5129777298510783,linear
+6,"{'alpha': 0.01, 'fit_intercept': True, 'solver': 'sparse_cg', 'copy_X': False, 'max_iter': 2122, 'tol': 0.008330928463643313}",146742.90773238312,0.5156692521463735,ridge
+7,"{'alpha': 0.01, 'fit_intercept': True, 'solver': 'sparse_cg', 'copy_X': False, 'max_iter': 2123, 'tol': 0.008836108405284392}",146742.90773238312,0.5156692521463735,ridge
+8,"{'alpha': 0.01, 'fit_intercept': True, 'solver': 'sparse_cg', 'copy_X': False, 'max_iter': 2121, 'tol': 0.01}",146742.90773238312,0.5156692521463735,ridge
+9,"{'alpha': 0.01, 'fit_intercept': True, 'selection': 'random', 'tol': 0.0040991960200045295, 'warm_start': True, 'positive': False}",149487.90503710133,0.4973798313192428,lasso
+10,"{'alpha': 0.01, 'fit_intercept': True, 'selection': 'random', 'tol': 0.003078167261866083, 'warm_start': True, 'positive': False}",149487.9056765396,0.49737982701930195,lasso
+11,"{'alpha': 0.01, 'fit_intercept': True, 'selection': 'random', 'tol': 0.003602935821379488, 'warm_start': True, 'positive': False}",149487.99046512428,0.4973792568532407,lasso
+12,"{'alpha': 0.0, 'l1_ratio': 0.05198202738566929, 'max_iter': 3839, 'tol': 0.20704460678514697, 'selection': 'random'}",147071.00447337184,0.5135010385032086,elasticnet
+13,"{'alpha': 0.0, 'l1_ratio': 0.07338035837137369, 'max_iter': 3839, 'tol': 0.17880214309439607, 'selection': 'random'}",147154.99587622227,0.5129452063273552,elasticnet
+14,"{'alpha': 0.0, 'l1_ratio': 0.10191585827991151, 'max_iter': 3842, 'tol': 0.0693819531912618, 'selection': 'random'}",147154.99587622227,0.5129452063273552,elasticnet
+15,"{'degree': 1, 'kernel': 'poly', 'C': 9.568205669659575, 'epsilon': 0.42419781265976436, 'gamma': 'scale', 'tol': 0.005255963167825677, 'cache_size': 958}",144322.2541337296,0.531516384045907,supportvectorregression
+16,"{'degree': 1, 'kernel': 'poly', 'C': 9.492630533575221, 'epsilon': 0.42314725266435727, 'gamma': 'scale', 'tol': 0.005872079791754044, 'cache_size': 958}",144336.60393058514,0.5314232178329501,supportvectorregression
+17,"{'degree': 1, 'kernel': 'poly', 'C': 10.0, 'epsilon': 0.42351301468631836, 'gamma': 'scale', 'tol': 0.005697495922263563, 'cache_size': 957}",144342.19346199522,0.5313869252323995,supportvectorregression
+18,"{'max_depth': 5, 'min_samples_split': 4, 'min_samples_leaf': 4, 'max_features': 'sqrt'}",162151.0276442601,0.4086192126874898,decisiontreeregression
+19,"{'max_depth': 5, 'min_samples_split': 2, 'min_samples_leaf': 4, 'max_features': 'sqrt'}",162151.0276442601,0.4086192126874898,decisiontreeregression
+20,"{'max_depth': 5, 'min_samples_split': 3, 'min_samples_leaf': 4, 'max_features': 'sqrt'}",162151.0276442601,0.4086192126874898,decisiontreeregression
+21,"{'criterion': 'friedman_mse', 'min_samples_split': 4, 'min_samples_leaf': 1, 'min_weight_fraction_leaf': 0.007372380459358318, 'min_impurity_decrease': 0.0, 'max_features': 'log2', 'ccp_alpha': 0.0}",151077.48034643498,0.48663380568418646,randomforestregression
+22,"{'criterion': 'friedman_mse', 'min_samples_split': 4, 'min_samples_leaf': 1, 'min_weight_fraction_leaf': 0.008016911229366342, 'min_impurity_decrease': 0.0, 'max_features': 'log2', 'ccp_alpha': 0.0}",151077.48034643498,0.48663380568418646,randomforestregression
+23,"{'criterion': 'friedman_mse', 'min_samples_split': 4, 'min_samples_leaf': 1, 'min_weight_fraction_leaf': 0.007366257623845596, 'min_impurity_decrease': 0.0, 'max_features': 'log2', 'ccp_alpha': 0.0}",151077.48034643498,0.48663380568418646,randomforestregression
